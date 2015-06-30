@@ -1,13 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
-  - "0.12"
-  - "iojs-v1.2.0"
+  #- "0.12"
+ # - "iojs-v1.2.0"
 sudo: false
-cache:
-  directories:
-    - node_modules
-    - bower_components
+
 addons:
   postgresql: "9.3"
 env:
